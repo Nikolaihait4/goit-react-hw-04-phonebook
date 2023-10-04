@@ -1,0 +1,27 @@
+.contactlistsection {
+  list-style: none;
+  padding: 0;
+}
+
+.contactlistitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.deletebutton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deletebutton:hover {
+  background-color: #c82333;
+}

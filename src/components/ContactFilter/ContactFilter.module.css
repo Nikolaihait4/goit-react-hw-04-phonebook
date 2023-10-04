@@ -1,0 +1,18 @@
+.filtrsection {
+  width: 277px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.filtrsection::placeholder {
+  color: #999;
+}
+
+.filtrsection:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
